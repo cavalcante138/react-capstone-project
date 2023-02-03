@@ -1,0 +1,21 @@
+@import "./theme.scss";
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-size: 16pt;
+    line-height: 1.5em;
+    color: $dark-gray-l-lemon;
+}
+h1{
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 64pt;
+    line-height: 64pt;
+}
+h2{
+    font-family: 'Markazi Text', serif;
+    font-weight: 400;
+    font-size: 40pt;
+    line-height: 40pt;
+}

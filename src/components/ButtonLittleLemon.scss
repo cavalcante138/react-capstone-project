@@ -1,0 +1,19 @@
+@import "../theme.scss";
+
+.button-little-lemon{
+    background-color: $yellow-l-lemon;
+    border: none;
+    border-radius: 16px;
+    color: $dark-gray-l-lemon;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 16pt;
+    padding: 10px 20px;
+    text-transform: titlecase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: $yellow-l-lemon+80;
+        color: $dark-gray-l-lemon;
+    }
+}

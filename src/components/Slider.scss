@@ -1,0 +1,26 @@
+@import "../theme.scss";
+
+.slider{
+    background-color: $green-l-lemon;
+    min-height: 40vh;
+    color: #FFFFFF;
+    padding: 1rem 0px;
+    h1{
+        color: $yellow-l-lemon;
+    }
+    p{
+        margin-bottom: 1rem;
+    }
+    .col{
+        position: relative;
+    }
+    img{
+        border-radius: 16px;
+        width: 380px;
+        height: 410px;
+        object-fit: cover;
+        position: absolute;
+        right: 0px;
+        top: 2rem;
+    }
+}
