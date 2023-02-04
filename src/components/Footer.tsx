@@ -7,10 +7,10 @@ export const Footer = () => {
         <footer>
             <section className="container">
                 <div className="row">
-                    <div className="col-3">    
+                    <div className="col-12 col-lg-3">    
                         <img src={Logo} alt="Restaurant" />
                     </div>
-                    <div className="col-3">
+                    <div className="col-12 col-lg-3">
                         <h2>Navigation</h2>
                         <ul>
                             <li>Home</li>
@@ -21,7 +21,7 @@ export const Footer = () => {
                             <li>Login</li>
                         </ul>
                     </div>
-                    <div className="col-3">
+                    <div className="col-12 col-lg-3">
                         <h2>Contact</h2>
                         <ul>
                             <li>Phone</li>
@@ -29,7 +29,7 @@ export const Footer = () => {
                             <li>Address</li>
                         </ul>
                     </div>
-                    <div className="col-3">
+                    <div className="col-12 col-lg-3">
                         <h2>Social Media Links</h2>
                         <ul>
                             <li>Facebook</li>

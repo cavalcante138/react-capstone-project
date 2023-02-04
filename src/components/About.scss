@@ -4,7 +4,7 @@
     position: relative;
     min-height: 70vh;
     padding-top: 2rem;
-    .col-6{
+    .col-lg-6{
         position: relative;
     }
     h1{
@@ -36,4 +36,27 @@
 .about-image-2{
     top: 50px;
     left: 180px;
+}
+
+@media (max-width: 999px){
+    .about{
+        padding-top: 0px;
+        article{
+            padding-top: 0px;
+            margin-bottom: 20px;
+        }
+    }
+    .about-img{
+        position: relative;
+        width: 100vw;
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+    .about-image-1{
+        top: 0px;
+    }
+    .about-image-2{
+        top: 0px;
+        left: 0px;
+    }
 }

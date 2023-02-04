@@ -11,7 +11,10 @@
     p{
         margin-bottom: 1rem;
     }
-    .col{
+    .col-lg-6{
+        position: relative;
+    }
+    .col-md-12{
         position: relative;
     }
     img{
@@ -22,5 +25,24 @@
         position: absolute;
         right: 0px;
         top: 1rem;
+    }
+}
+
+@media (max-width: 999px){
+    .slider{
+        img{
+            position: relative;
+            width: 200px;
+            height: 170px;
+        }
+        p{
+            padding: 0px 10px;
+        }
+        h1{
+            padding: 0px 10px;
+        }
+        h2{
+            padding: 0px 10px;
+        }
     }
 }

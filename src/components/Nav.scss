@@ -24,3 +24,68 @@ ul.nav-menu{
     }
 
 }
+.menu-mobile{
+    display: none;
+}
+.menu-mobile__links {
+    display: none;
+}
+
+@media screen and (max-width: 999px){
+    .logo-topo{
+        width: 250px;
+    }
+    .menu-mobile{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        padding-top: 0.6rem;
+    }
+    .menu-mobile-button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        margin: 0;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile__links {
+        display: none;
+    }
+    .menu-mobile__links--open{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #495e57f0;
+        padding: 1rem 0;
+        z-index: 100;
+        height: 100vh;
+        transition: all 0.3s ease-in-out;
+        svg{
+            cursor: pointer;
+            fill: #FFF !important;
+            stroke: #FFF !important;
+        }
+        ul{
+            li{
+                font-family: "Markazi Text", serif;
+                display: block;
+                margin: 0;
+                padding: 0.5rem 0;
+                text-align: center;
+                a{
+                    color: #FFF;
+                    font-size: 2.5rem;
+                    font-weight: normal;
+                    line-height: 3rem;
+                }
+            }
+        }
+    }
+}

@@ -12,7 +12,7 @@ export const Specials = () => {
     return (
         <section className="specials container">
             <div className="row">
-                <div className="special-title-container">
+                <div className="special-title-container special-marketing-phrase">
                     <h2>This weeks specials!</h2>
                     <ButtonLittleLemon 
                     title={"Online Menu"} 
@@ -23,7 +23,7 @@ export const Specials = () => {
                 </div>
             </div>
             <div className="row mt-5">
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                     <SpecialsCard
                     title={"Greek salad"}
                     description={"The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."}
@@ -35,7 +35,7 @@ export const Specials = () => {
                     }
                     />
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                     <SpecialsCard
                     title={"Bruchetta"}
                     description={"Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil."}
@@ -47,7 +47,7 @@ export const Specials = () => {
                     }
                     />
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                 <SpecialsCard
                     title={"Lemon Dessert"}
                     description={"This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined."}

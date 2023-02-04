@@ -7,7 +7,7 @@ export const Slider = () => {
         <section className="slider">
             <div className="container">
             <div className="row">
-                <article className="col">
+                <article className="col-12 col-md-12 col-lg-6">
                     <h1>Little Lemon</h1>
                     <h2>Chicago</h2>
                     <p>
@@ -19,7 +19,7 @@ export const Slider = () => {
                         onClick={() => console.log("Reserve a table")}
                         />
                 </article>
-                <div className="col">
+                <div className="col-12 col-md-12 col-lg-6">
                 <img src={restaurantImage} alt="Restaurant" />
                 </div>
             </div>

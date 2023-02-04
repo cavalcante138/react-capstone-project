@@ -11,16 +11,16 @@ export const Testimonials = () => {
                     </div>
                 </div>
                 <div className="row mt-3">
-                    <div className="col-3">
+                    <div className="col-12 col-lg-3">
                         <TestimonialsCard />
                     </div>
-                    <div className="col-3">
+                    <div className="col-12 col-lg-3">
                         <TestimonialsCard />
                     </div>
-                    <div className="col-3">
+                    <div className="col-12 col-lg-3">
                         <TestimonialsCard />
                     </div>
-                    <div className="col-3">
+                    <div className="col-12 col-lg-3">
                         <TestimonialsCard />
                     </div>
                 </div>

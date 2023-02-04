@@ -175,6 +175,15 @@
     padding: 0;
 }
 
+@media (max-width: 999px) {
+  .container{
+     --bs-gutter-x: 0rem !important;
+  }
+  .row{
+    margin: 0 auto !important;
+  }
+}
+
 .container,
 .container-fluid,
 .container-xxl,

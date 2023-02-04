@@ -32,3 +32,17 @@ ul{
         }
     }
 }
+
+@media (max-width: 999px) {
+    footer{
+    h2{
+        text-align: center;
+    }
+    ul{
+        text-align: center;
+        li{
+            text-align: center;
+        }
+    }
+}
+}
