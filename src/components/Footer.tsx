@@ -8,7 +8,7 @@ export const Footer = () => {
             <section className="container">
                 <div className="row">
                     <div className="col-12 col-lg-3">    
-                        <img src={Logo} alt="Restaurant" />
+                        <img src={Logo} alt="Logo Little Lemon" />
                     </div>
                     <div className="col-12 col-lg-3">
                         <h2>Navigation</h2>

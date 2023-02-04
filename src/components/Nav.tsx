@@ -3,6 +3,7 @@ import Logo from "../assets/Logo.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrFormClose } from "react-icons/gr";
 import "./Nav.scss"
+import { Link } from "react-router-dom";
 
 export const Nav = () => {
 
@@ -12,7 +13,7 @@ export const Nav = () => {
         <nav className="container">
             <div className="row">
                 <div className="col-6 col-lg-3">
-                    <img src={Logo} alt="logo" className="logo-topo" />
+                    <img src={Logo} alt="Logo little lemon" className="logo-topo" />
                 </div>
                 <div className="col-6 col-lg-9">
                     <div className="menu-mobile">
@@ -73,7 +74,9 @@ export const Nav = () => {
                             <a href="#">Menu</a>
                         </li>
                         <li>
-                            <a href="#">Reservations</a>
+                            <Link
+                            to={"/booking"}
+                            >Reservations</Link>
                         </li>
                         <li>
                             <a href="#">Order Online</a>

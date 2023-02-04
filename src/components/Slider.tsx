@@ -20,7 +20,7 @@ export const Slider = () => {
                         />
                 </article>
                 <div className="col-12 col-md-12 col-lg-6">
-                <img src={restaurantImage} alt="Restaurant" />
+                <img src={restaurantImage} alt="The best food" />
                 </div>
             </div>
             </div>

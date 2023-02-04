@@ -28,7 +28,7 @@ export const Specials = () => {
                     title={"Greek salad"}
                     description={"The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."}
                     image={special1}
-                    imageAlt={"Special"}
+                    imageAlt={"Greek salad photo"}
                     price={12.99}
                     onClick={
                         () => console.log("Order Now")
@@ -40,7 +40,7 @@ export const Specials = () => {
                     title={"Bruchetta"}
                     description={"Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil."}
                     image={special2}
-                    imageAlt={"Special"}
+                    imageAlt={"Bruchetta photo"}
                     price={5.99}
                     onClick={
                         () => console.log("Order Now")
@@ -52,7 +52,7 @@ export const Specials = () => {
                     title={"Lemon Dessert"}
                     description={"This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined."}
                     image={special3}
-                    imageAlt={"Special"}
+                    imageAlt={"Lemon Dessert photo"}
                     price={5}
                     onClick={
                         () => console.log("Order Now")

@@ -17,8 +17,8 @@ export const About = () => {
                     </p>
                 </article>
                 <div className="col-12 col-lg-6">
-                <img src={restaurantImage} alt="Restaurant" className="about-img about-image-1" />
-                <img src={restaurantImage2} alt="Restaurant" className="about-img about-image-2" />
+                <img src={restaurantImage} alt="Little Lemon restaurant view" className="about-img about-image-1" />
+                <img src={restaurantImage2} alt="Little Lemon restaurant view" className="about-img about-image-2" />
                 </div>
             </div>
         </section>
