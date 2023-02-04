@@ -1,0 +1,39 @@
+@import "../theme.scss";
+
+.about{
+    position: relative;
+    min-height: 70vh;
+    padding-top: 2rem;
+    .col-6{
+        position: relative;
+    }
+    h1{
+        color: $green-l-lemon;
+    }
+    h2{
+        color: $green-l-lemon;
+    }
+    p{
+        font-size: 16pt;
+        line-height: 1.5em;
+    }
+    article{
+        padding-top: 2.5rem;
+    }
+}
+
+.about-img{
+    position: absolute;
+    width: 276px;
+    height: 338px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+.about-image-1{
+    top: 100px;
+}
+.about-image-2{
+    top: 50px;
+    left: 180px;
+}

@@ -1,0 +1,26 @@
+@import "../theme.scss";
+
+nav.container{
+        padding-top: 1rem;
+        padding-bottom: 0.8rem;
+}
+
+.nav-menu-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.nav-menu{
+    li{
+        display: inline-block;
+        margin: 0 10px;
+        a{
+            color: $dark-gray-l-lemon;
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+    }
+
+}

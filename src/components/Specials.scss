@@ -1,0 +1,49 @@
+@import "../theme.scss";
+
+.specials{
+    padding: 5rem;
+    h2{
+        font-size: 48pt;
+    }
+    .price{
+        color: $orange-l-lemon;
+    }
+}
+.special-title-container{
+    display: flex;
+    justify-content: space-between;
+}
+.special-image-container{
+    height: 270px;
+    overflow: hidden;
+    img{
+        border-radius: 12px 12px 0px 0px;
+        object-fit: cover;
+        height: 100%;
+    }
+}
+.special-info-container{
+    background-color: $gray-l-lemon;
+    border-radius: 0px 0px 12px 12px;
+    padding: 1rem 1rem;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order-delivery-btn{
+    border-width: 0px;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    svg{
+        margin-left: 0.3rem;
+    }
+}
+.special-info-description{
+        font-size: 1rem;
+        line-height: 1.2rem;
+}
