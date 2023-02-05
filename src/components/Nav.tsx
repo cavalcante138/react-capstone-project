@@ -17,7 +17,9 @@ export const Nav = () => {
                 </div>
                 <div className="col-6 col-lg-9">
                     <div className="menu-mobile">
-                        <button className="menu-mobile-button" onClick={() =>
+                        <button className="menu-mobile-button" 
+                        aria-label="On Click"
+                        onClick={() =>
                         {
                             document.body.style.overflow = 'hidden';
                             document.documentElement.style.overflow = 'hidden';
@@ -76,6 +78,7 @@ export const Nav = () => {
                         <li>
                             <Link
                             to={"/booking"}
+                            data-testid="booking-link"
                             >Reservations</Link>
                         </li>
                         <li>

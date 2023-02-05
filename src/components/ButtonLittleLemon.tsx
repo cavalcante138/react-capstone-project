@@ -10,6 +10,7 @@ export const ButtonLittleLemon = (
 ) => {
     return (
         <button className="button-little-lemon"
+        aria-label="On Click"
         onClick={onClick}
         >
             {title}

@@ -1,11 +1,26 @@
 import { BookingForm } from "../components/BookingForm"
 
-export const BookingPage = () => {
-    return (
-        <div className="booking-page">
-            <h1>Booking Page</h1>
+interface Props {
+  availableTimes: string[];
+  updateTimes: (selectedDate: Date) => void;
+  onSubmitBooking: (values: any) => void;
+}
 
-            <BookingForm />
-        </div>
-    )
+
+export const BookingPage = ({
+  availableTimes,
+  updateTimes,
+  onSubmitBooking
+}: Props) => {
+  return (
+    <div className="booking-page">
+      <h1>Booking Page</h1>
+
+      <BookingForm 
+      availableTimes={availableTimes}
+      updateTimes={updateTimes}
+      onSubmitBooking={onSubmitBooking}
+      />
+    </div>
+  )
 }

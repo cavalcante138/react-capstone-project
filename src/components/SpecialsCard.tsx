@@ -36,6 +36,7 @@ onClick
             </p>
             </div>
             <button 
+            aria-label="On Click"
             onClick={onClick}
             className="order-delivery-btn"
             >Order a delivery
