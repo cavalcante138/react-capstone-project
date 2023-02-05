@@ -1,4 +1,5 @@
 import { ImStarEmpty, ImStarFull } from "react-icons/im"
+import avatar from "../assets/Mario-and-Adrian-A.jpg";
 
 export const TestimonialsCard = () => {
   return (
@@ -13,7 +14,7 @@ export const TestimonialsCard = () => {
         </div>
         <div className="testimonials-content-author">
           <div className="testimonials-content__author__image">
-            <img src="https://picsum.photos/200" alt="Author" />
+            <img src={avatar} alt="Author" />
           </div>
           <div className="testimonials-content__author__name">
             <h3>John Doe</h3>

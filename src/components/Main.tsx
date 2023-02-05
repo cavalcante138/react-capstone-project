@@ -92,10 +92,6 @@ function Main() {
     initializeTimes();
   }, []);
 
-  useEffect(() => {
-    console.log(state.scheduledDatesTimes);
-  }, [state.scheduledDatesTimes]);
-
   return (
     <Router>
     <Header />

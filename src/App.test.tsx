@@ -22,6 +22,13 @@ test('is initializeTimes returning a value?', async () => {
 
   await fireEvent.click(screen.getByTestId("booking-link"))
   await new Promise((r) => setTimeout(r, 2000));
+
+  const dateSelectInput = await screen.getByLabelText("Choose date");
+
+  await act(async () => {
+    await fireEvent.change(dateSelectInput, { target: { value: "2023-09-01" } });
+  });
+
   const timeSelectOptions = screen.queryAllByTestId("time-select");
 
   await waitFor(() => {
@@ -96,7 +103,7 @@ test('Validate the form is submiting data', async () => {
   
 
     await waitFor(() => {
-      expect(screen.getByText("Confirmed Booking")).toBeInTheDocument();
+      expect(screen.getByText("Your booking has been confirmed")).toBeInTheDocument();
     })
   
 })

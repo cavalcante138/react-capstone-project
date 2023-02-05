@@ -1,0 +1,41 @@
+@import "../theme.scss";
+
+.confirmed-booking {
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 36px;
+      font-weight: bold;
+      color: $green-l-lemon;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: $dark-gray-l-lemon;
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 999px) {
+  .confirmed-booking {
+    background-color: #f2f2f2;
+    padding: 20px 0px;
+    text-align: center;
+}
+}

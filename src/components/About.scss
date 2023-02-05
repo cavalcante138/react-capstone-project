@@ -2,7 +2,7 @@
 
 .about{
     position: relative;
-    min-height: 70vh;
+    min-height: 28rem;
     padding-top: 2rem;
     .col-lg-6{
         position: relative;
@@ -24,7 +24,7 @@
 
 .about-img{
     position: absolute;
-    width: 276px;
+    width: 28vw;
     height: 338px;
     border-radius: 12px;
     object-fit: cover;
@@ -32,10 +32,18 @@
 }
 .about-image-1{
     top: 100px;
+    left: 0px;
 }
 .about-image-2{
     top: 50px;
-    left: 180px;
+}
+
+@media (min-width: 1000px){
+  .about-img-container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
 }
 
 @media (max-width: 999px){

@@ -1,8 +1,12 @@
 import { ButtonLittleLemon } from "./ButtonLittleLemon"
 import "./Slider.scss";
 import restaurantImage from "../assets/restauranfood.jpg";
+import { useHistory } from "react-router-dom";
 
 export const Slider = () => {
+
+    const history = useHistory();
+
     return (
         <section className="slider">
             <div className="container">
@@ -16,7 +20,7 @@ export const Slider = () => {
                     </p>
                     <ButtonLittleLemon
                         title="Reserve a Table" 
-                        onClick={() => console.log("Reserve a table")}
+                        onClick={() => history.push("/booking")}
                         />
                 </article>
                 <div className="col-12 col-md-12 col-lg-6">

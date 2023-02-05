@@ -12,8 +12,9 @@
     text-transform: titlecase;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
     &:hover{
-        background-color: $yellow-l-lemon+80;
+        opacity: 0.7;
         color: $dark-gray-l-lemon;
     }
 }
